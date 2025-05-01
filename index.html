@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <button id="preto-e-branco" alt="Botão de ativar Acessibilidade Preto e branco">                
+                    <img src="icons/preto_e_branco.png" alt="Icone de acessibbilidade preto e branco" >
+                </button>
+            </li>
+            <li>
+                <button id="aumentar-texto" alt="Botão de ativar Acessibilidade Aumentar Texto">
+                    <img src="icons/a_mais.png" alt="Icone de acessibbilidade aumentar texto">
+                </button>
+            </li>
+            <li>
+                <button id="diminuir-texto"  alt="Botão de ativar Acessibilidade Diminuir Texto">
+                    <img src="icons/a_menos.png" alt="Icone de acessibbilidade diminuir texto">
+                </button>
+            </li>
+            <li>
+                <button id="alto-contraste"  alt="Botão de ativar Acessibilidade Aumentar Contraste">
+                    <img src="icons/alto_contraste.png" alt="Icone de acessibbilidade aumentar texto">
+                </button>
+            </li>
+            <li>
+                <button id="libras">
+                    <img src="icons/libras.png" alt="Icone de acessibbilidade de libras" alt="Botão de ativar Acessibilidade Libras">
+                </button>
+            </li>
+            <li>
+                <button id="" alt="Botão de ativar Acessibilidade de Voz">
+                    <img src="icons/voz.png" alt="Icone de acessibbilidade de voz">
+                </button>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h1>
+                Testando Ferramentas ACD
+            </h1>
+            <a href="">Testando link clique aqui</a>
+            <img src="icons/acessibilidade.jpg" alt ="">
+        </section>
+    </main>
+<script src = "scripts.js">
+
+</script>
+
+<div vw class="enabled">
+    <div vw-access-button class="active" id="plugin-acessivel"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+</html>
